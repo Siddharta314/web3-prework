@@ -40,3 +40,5 @@ it will print the
 Deployer Address
 Counter Contract Address 
 ```
+
+Create html, js and css to interact with the contract

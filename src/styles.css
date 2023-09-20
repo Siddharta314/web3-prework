@@ -1,0 +1,48 @@
+body {
+    background-color: #3498db; /* Nice blue background color */
+    font-family: Arial, sans-serif; /* Use a common sans-serif font */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Style the header */
+  header {
+    margin-top: 20px; /* Add space at the top */
+  }
+  
+  /* Style the title text */
+  header p {
+    font-size: 36px; /* Big font size for the title */
+    color: #fff; /* White text color */
+  }
+  
+  /* Style the container */
+  .container {
+    margin-top: 20px; /* Add space at the top */
+  }
+  
+  /* Style the input field */
+  input[type="text"] {
+    width: 100px; /* Adjust the width as needed */
+    padding: 10px; /* Add some padding for spacing */
+    border: none; /* Remove the default input border */
+    border-radius: 10px; /* Rounded shape */
+    font-size: 18px; /* Font size for the input */
+  }
+  
+  /* Style the buttons */
+  button[type="button"] {
+    background-color: #e74c3c; /* Nice red color for buttons */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Add padding to the buttons */
+    border: none; /* Remove the default button border */
+    border-radius: 10px; /* Rounded shape */
+    margin: 5px; /* Add some margin for spacing */
+    font-size: 16px; /* Font size for the buttons */
+    cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  
+  /* Hover effect for buttons */
+  button[type="button"]:hover {
+    background-color: #c0392b; /* Darker red color on hover */
+  }
+  
