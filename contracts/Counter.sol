@@ -1,10 +1,11 @@
 // SPDX-License-Identifier: MIT
-pragma solidity >=0.8.7;  //version de los compiladores
+pragma solidity >=0.8.7;  //version 
 
 contract Counter {
+    
     uint counter;
 
-    constructor(uint _counter) {  //el guion bajo _para indicar que es un parametro y no se confunda con el nombre de la propiedad
+    constructor(uint _counter) {  
         counter = _counter;
     }
 
@@ -12,11 +13,8 @@ contract Counter {
         return counter;
     }
 
-
     function increment() public {
         counter ++;
     }
-
-
 }
 

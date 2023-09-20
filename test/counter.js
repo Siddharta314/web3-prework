@@ -9,7 +9,8 @@ describe("Counter Contract", () => {
     const counter = await Counter.deploy(0);
 
     await counter.increment();
-    const updateCounter = counter.getCounter();
+    const updateCounter = await counter.getCounter();
     expect(updateCounter).to.equal(1); //test
   });
 });
+
